@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './styles.css';
-import { Input } from '../../ui/Input';
-import { RangeTable } from '../RangeTable';
+import { Input } from 'src/ui/Input';
+import { RangeTable } from 'src/components/RangeTable';
 
 function App() {
   const [ xDistanse, setXDistanse ] = useState<number>(0);
